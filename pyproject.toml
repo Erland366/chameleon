@@ -11,10 +11,10 @@ readme = "README.md"
 authors = [{name = "Chameleon Team"}]
 license = {file = "LICENSE"}
 dependencies = [
-    "transformers==4.36.2",
-    "xformers==0.0.23",
+    "transformers",
+    "xformers",
     "Pillow==10.0.*",
-    "numpy==1.26.*",
+    "numpy",
     "click",
     "flask",
     "flask_socketio",
